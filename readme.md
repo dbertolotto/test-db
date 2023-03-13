@@ -4,7 +4,7 @@
 
 # Postgres
 * pgadmin on http://localhost:5050
-** user: admin@admin.com / root
+  * user: admin@admin.com / root
 * database on http://pgdb:5432
-** name: test_db
-** user: root / root
+  * name: test_db
+  * user: root / root
