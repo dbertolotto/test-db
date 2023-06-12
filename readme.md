@@ -1,8 +1,8 @@
 # Docker quick reference
-* Run detached: docker-compose up -d
-* Shutdown: docker-compose down
+* Run detached: `docker-compose up -d`
+* Shutdown: `docker-compose down`
 
-# Postgres
+# Postgres (+postgis)
 * pgadmin on http://localhost:5050
   * user: admin@admin.com / root
 * database on http://pgdb:5432
