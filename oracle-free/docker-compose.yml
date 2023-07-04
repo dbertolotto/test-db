@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  oracledb:
+    container_name: oracle_container
+    image: container-registry.oracle.com/database/free:23.2.0.0
+    restart: always
+    environment:
+      ORACLE_PWD: root
+    ports:
+      - "1521:1521"
+    volumes:
+      # comment the following line if persistence is not needed
+      - oracle_data:/opt/oracle/oradata
+volumes:
+  oracle_data:

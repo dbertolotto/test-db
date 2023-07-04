@@ -5,6 +5,11 @@
 # Postgres (+postgis)
 * pgadmin on http://localhost:5050
   * user: admin@admin.com / root
-* database on http://pgdb:5432
+* database on http://localhost:5432
   * name: test_db
   * user: root / root
+
+# Oracle (Free)
+* database on http://localhost:1521
+  * SID: FREE
+  * user: SYSTEM / root
